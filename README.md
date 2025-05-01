@@ -76,7 +76,20 @@ Includes:
 
 ---
 ## Project Structure
-<pre> ```text artutils/ ├── __init__.py ├── io_utils.py ├── color_utils.py ├── clustering.py ├── palette_tools.py ├── visualization.py └── examples/ ├── clustering_example.py ├── palette_example.py ├── gmm_gradient_example.py └── visualization_example.py ``` </pre>
+```
+artutils/
+├── __init__.py
+├── io_utils.py
+├── color_utils.py
+├── clustering.py
+├── palette_tools.py
+├── visualization.py
+└── examples/
+    ├── clustering_example.py
+    ├── palette_example.py
+    ├── gmm_gradient_example.py
+    └── visualization_example.py
+```
 
 ---
 ## Coming Sometime in the Future: Soft Brush Texture Tools
@@ -95,11 +108,11 @@ This feature is paused for now but is planned for **v2**.
 ## Getting Started
 
 Clone and install the library:
-<pre>```bash
+<pre>
 git clone https://github.com/your-username/artutils.git
 cd artutils
 pip install -e .
-```</pre>
+</pre>
 
 ---
 If you’d like to collaborate or feature this project somewhere, feel free to reach out!
