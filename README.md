@@ -109,7 +109,7 @@ This feature is paused for now but is planned for **v2**.
 
 Clone and install the library:
 <pre>
-git clone https://github.com/your-username/artutils.git
+git clone https://github.com/aki-au/artutils.git
 cd artutils
 pip install -e .
 </pre>
