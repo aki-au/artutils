@@ -2,16 +2,20 @@ import cv2, os
 import matplotlib.pyplot as plt
 from PIL import Image
 
-def load_and_resize_image(path, size=(100, 100)):
-    img_bgr = cv2.imread(path)
-    if img_bgr is None:
-        raise ValueError(f"Cannot load image: {path}")
-    img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
-    return cv2.resize(img_rgb, size) if size else img_rgb
+def load_and_resize_image(image_path, size=(100, 100)):
+    """Load an image, convert BGR to RGB, and resize."""
+    image_bgr = cv2.imread(image_path)
+    if image_bgr is None:
+        raise ValueError(f"Image at path {image_path} could not be loaded.")
+    image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
+    if size:
+        image_rgb = cv2.resize(image_rgb, size)
+    return image_rgb
 
-def plot_image(img):
-    plt.imshow(img)
-    plt.axis("off")
+def plot_image(image):
+    """Plot an RGB image without axes."""
+    plt.imshow(image)
+    plt.axis('off')
     plt.tight_layout()
     plt.show()
 

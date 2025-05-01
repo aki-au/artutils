@@ -1,4 +1,4 @@
-from artist_toolbox.clustering import generate_soft_gmm_color_wheel
+from artutils.clustering import generate_soft_gmm_color_wheel
 
 generate_soft_gmm_color_wheel(
     image_path="example_image.png",
