@@ -1,3 +1,29 @@
+Metadata-Version: 2.4
+Name: artutils
+Version: 1.0.0
+Summary: A modular ML-powered palette toolkit for artists and designers
+Home-page: https://github.com/aki-au/artutils
+Author: Alakarthika
+Author-email: alakarthika01@email.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: Pillow>=11.1.0
+Requires-Dist: scikit-learn>=1.6.1
+Requires-Dist: opencv-python>=4.10.0
+Requires-Dist: scikit-image>=0.25.2
+Requires-Dist: kneed>=0.8.5
+Dynamic: license-file
+
 # artutils
 
 A modular Python library for extracting, generating, and visualizing color palettes directly from images. Created for digital artists, illustrators, designers, and anyone who wants to use image-driven color workflows with perceptual intelligence and ML-assisted tools.
@@ -127,10 +153,3 @@ pip install -e .
 
 ---
 If you’d like to collaborate or feature this project somewhere, feel free to reach out!
-
-
-## PyPi Modular Package
-https://pypi.org/project/artutils/1.0.0/ --> This is where you can download it through PyPi!
-
-## Medium Article (with Pictures and Stuff)
-
