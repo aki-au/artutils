@@ -42,6 +42,11 @@ st.write(
 upload_type = st.radio("🧩 What are you uploading?", ["Artwork Image", "Palette Image"])
 st.info("Upload a photograph, painting, screenshot, or any image file. If you already have a palette (e.g. a PNG of color swatches), choose *Palette Image*.")
 uploaded = st.file_uploader("Upload JPG/PNG", type=["jpg", "jpeg", "png"])
+
+if not uploaded:
+    st.stop()
+
+tmp_path = save_uploaded_file(uploaded)
 if uploaded:
     try:
         with Image.open(tmp_path) as img:
@@ -50,10 +55,6 @@ if uploaded:
         st.error("That file doesn’t look like a valid image.")
         os.remove(tmp_path)
         st.stop()
-if not uploaded:
-    st.stop()
-
-tmp_path = save_uploaded_file(uploaded)
 st.image(tmp_path, caption="Uploaded", use_container_width=True)
 
 try:    
