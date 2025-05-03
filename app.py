@@ -43,10 +43,11 @@ upload_type = st.radio("🧩 What are you uploading?", ["Artwork Image", "Palett
 st.info("Upload a photograph, painting, screenshot, or any image file. If you already have a palette (e.g. a PNG of color swatches), choose *Palette Image*.")
 uploaded = st.file_uploader("Upload JPG/PNG", type=["jpg", "jpeg", "png"])
 try:
-    img = Image.open(uploaded)
-    img.verify()         # will throw if not a real image
-except UnidentifiedImageError:
+    with Image.open(tmp_path) as img:
+        img.verify()   # raises if not a valid image
+except:
     st.error("That file doesn’t look like a valid image.")
+    os.remove(tmp_path)
     st.stop()
 if not uploaded:
     st.stop()
