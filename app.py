@@ -81,7 +81,7 @@ try:
             )
     
         auto_colors = st.checkbox(
-            "Let the model automatically choose the number of colors",
+            "Let the model automatically choose the number of colors (only for soft and hard palette generation)",
             value=True
         )
         if auto_colors:
