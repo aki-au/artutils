@@ -2,6 +2,8 @@
 
 A modular Python library for extracting, generating, and visualizing color palettes directly from images. Created for digital artists, illustrators, designers, and anyone who wants to use image-driven color workflows with perceptual intelligence and ML-assisted tools.
 
+App: https://artutils.streamlit.app/
+
 ---
 
 ## What Is It?
