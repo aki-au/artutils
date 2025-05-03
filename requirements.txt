@@ -6,4 +6,4 @@ scikit-learn==1.6.1
 opencv-python-headless==4.10.0
 scikit-image
 streamlit==1.45.0
-artutils==0.0.2
+artutils==0.0.3
