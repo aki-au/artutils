@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+from PIL import Image, UnidentifiedImageError
 import numpy as np
 import tempfile
 import os
@@ -40,8 +40,15 @@ st.write(
 # ———————————————————————————————
 upload_type = st.radio("🧩 What are you uploading?", ["Artwork Image", "Palette Image"])
 st.info("Upload a photograph, painting, screenshot, or any image file. If you already have a palette (e.g. a PNG of color swatches), choose *Palette Image*.")
+st.set_option('server.maxUploadSize', 40) 
 
 uploaded = st.file_uploader("Upload JPG/PNG", type=["jpg", "jpeg", "png"])
+try:
+    img = Image.open(uploaded)
+    img.verify()         # will throw if not a real image
+except UnidentifiedImageError:
+    st.error("That file doesn’t look like a valid image.")
+    st.stop()
 if not uploaded:
     st.stop()
 
