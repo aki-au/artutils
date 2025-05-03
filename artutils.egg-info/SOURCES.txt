@@ -3,7 +3,13 @@ MANIFEST.in
 README.md
 pyproject.toml
 setup.cfg
-setup.py
+artutils/__init__.py
+artutils/clustering.py
+artutils/color_utils.py
+artutils/io_utils.py
+artutils/palette_tools.py
+artutils/setup.py
+artutils/visualization.py
 artutils.egg-info/PKG-INFO
 artutils.egg-info/SOURCES.txt
 artutils.egg-info/dependency_links.txt

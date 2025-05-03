@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: artutils
-Version: 1.0.0
+Version: 0.0.3
 Summary: A modular ML-powered palette toolkit for artists and designers
 Home-page: https://github.com/aki-au/artutils
 Author: Alakarthika
@@ -19,7 +19,7 @@ Requires-Dist: numpy>=1.26.4
 Requires-Dist: matplotlib>=3.10.0
 Requires-Dist: Pillow>=11.1.0
 Requires-Dist: scikit-learn>=1.6.1
-Requires-Dist: opencv-python>=4.10.0
+Requires-Dist: opencv-python-headless>=4.10.0
 Requires-Dist: scikit-image>=0.25.2
 Requires-Dist: kneed>=0.8.5
 Dynamic: license-file
@@ -153,3 +153,10 @@ pip install -e .
 
 ---
 If you’d like to collaborate or feature this project somewhere, feel free to reach out!
+
+
+## PyPi Modular Package
+https://pypi.org/project/artutils/1.0.0/ --> This is where you can download it through PyPi!
+
+## Medium Article (with Pictures and Stuff)
+

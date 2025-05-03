@@ -1,6 +1,6 @@
 import numpy as np
-from color_utils import hex_to_lab, delta_e
-from io_utils import load_and_resize_image
+from artutils.color_utils import hex_to_lab, delta_e
+from artutils.io_utils import load_and_resize_image
 from skimage import color as skcolor
 
 def deduplicate_colors(colors, threshold=5):

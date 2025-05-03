@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
-from palette_tools import sort_palette_by_closeness
+from artutils.palette_tools import sort_palette_by_closeness
 
 def plot_swatch(pal, save_path=None):
     fig, ax = plt.subplots(figsize=(len(pal), 2))

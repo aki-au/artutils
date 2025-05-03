@@ -2,9 +2,9 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from kneed import KneeLocator
-from io_utils import load_and_resize_image
-from palette_tools import deduplicate_colors, sort_palette_by_closeness
-from color_utils import interpolate_hsl_gradient, rgb_normalized_to_hex, generate_full_hsl_gradient
+from artutils.io_utils import load_and_resize_image
+from artutils.palette_tools import deduplicate_colors, sort_palette_by_closeness
+from artutils.color_utils import interpolate_hsl_gradient, rgb_normalized_to_hex, generate_full_hsl_gradient
 
 # k‑means helpers
 
