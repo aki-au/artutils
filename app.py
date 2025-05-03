@@ -46,7 +46,7 @@ if not uploaded:
     st.stop()
 
 tmp_path = save_uploaded_file(uploaded)
-st.image(tmp_path, caption="Uploaded", use_column_width=True)
+st.image(tmp_path, caption="Uploaded", use_container_width=True)
 
 
 # ———————————————————————————————
