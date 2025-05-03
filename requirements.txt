@@ -3,7 +3,7 @@ matplotlib==3.10.0
 numpy==1.26.4
 Pillow==11.1.0
 scikit-learn==1.6.1
-opencv-python==4.10.0
-scikit-image==0.25.2
+opencv-python
+scikit-image
 streamlit==1.45.0
 artutils==0.0.2
