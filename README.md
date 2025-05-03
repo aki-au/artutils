@@ -5,6 +5,10 @@ A modular Python library for extracting, generating, and visualizing color palet
 App: https://artutils.streamlit.app/ --> app to try out the library functionality
 
 ---
+## PyPi Modular Package
+https://pypi.org/project/artutils/1.0.0/ --> This is where you can download it through PyPi!
+
+---
 
 ## What Is It?
 
@@ -131,8 +135,7 @@ pip install -e .
 If you’d like to collaborate or feature this project somewhere, feel free to reach out!
 
 
-## PyPi Modular Package
-https://pypi.org/project/artutils/1.0.0/ --> This is where you can download it through PyPi!
+---
 
 ## Medium Article (with Pictures and Stuff)
 
