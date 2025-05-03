@@ -6,7 +6,7 @@ App: https://artutils.streamlit.app/ --> app to try out the library functionalit
 
 ---
 ## PyPi Modular Package
-https://pypi.org/project/artutils/1.0.0/ --> This is where you can download it through PyPi!
+https://pypi.org/project/artutils/ --> This is where you can download it through PyPi!
 
 ---
 
