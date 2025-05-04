@@ -28,7 +28,7 @@ st.set_page_config(page_title="ArtUtils Palette Studio", layout="centered")
 st.title("🎨 ArtUtils Palette Studio")
 st.write(
     """
-    **artutils** helps you extract and explore colors from any image—  
+    **artutils** helps you extract and explore colors from any image: 
     either a piece of artwork or a palette graphic.  
     Choose a method below, generate your palette or gradient, and download the results.
     """
