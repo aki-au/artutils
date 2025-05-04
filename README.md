@@ -138,4 +138,5 @@ If you’d like to collaborate or feature this project somewhere, feel free to r
 ---
 
 ## Medium Article (with Pictures and Stuff)
+Medium article here: https://medium.com/@alakarthika01/i-built-a-palette-library-for-artists-with-ml-556dafe66716
 
