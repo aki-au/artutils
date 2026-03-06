@@ -20,7 +20,7 @@ https://pypi.org/project/artutils/ --> This is where you can download it through
 
 ---
 
-## What's Inside (And Why It Matters)
+## What's Inside 
 
 ### Palette Extraction (`palette_tools.py`)
 **Why:** Picking random pixels creates duplicates and noise. This tool:
@@ -28,7 +28,7 @@ https://pypi.org/project/artutils/ --> This is where you can download it through
 - Converts to perceptual LAB space
 - Deduplicates based on Delta E (color difference)
 
-**Use it for:**
+**Usecase:**
 - Building consistent palettes from reference art or moodboards  
 - Feeding a painting layer or UI theme system  
 
@@ -37,7 +37,7 @@ https://pypi.org/project/artutils/ --> This is where you can download it through
 ### Clustering with KMeans / GMM (`clustering.py`)
 **Why:** Hard clustering (KMeans) finds dominant color regions, while GMM captures **soft overlaps**.
 
-**Use it for:**
+**Usecase:**
 - Logo and brand palette design  
 - Color structure discovery from photo datasets  
 - Creating refined palettes from photography
@@ -50,7 +50,7 @@ https://pypi.org/project/artutils/ --> This is where you can download it through
 - Blends colors based on those weights
 - Produces smooth, loopable color wheels
 
-**Use it for:**
+**Usecase**
 - Background gradient generation  
 - Data viz color transitions  
 - Mood palette exploration for art
@@ -63,7 +63,7 @@ Includes:
 - HSL gradient interpolation  
 - Opposite color generator  
 
-**Use it for:**
+**Usecase:**
 - Theme toggling  
 - Exploring lightness/saturation transitions  
 - Creating color harmonies and contrasts
@@ -75,7 +75,7 @@ Includes:
 - Circular polar color wheels  
 - Optional export to `.png`
 
-**Use it for:**
+**Usecase:**
 - Portfolio graphics  
 - Color reviews with clients or teammates  
 - Visual debugging of generated palettes
